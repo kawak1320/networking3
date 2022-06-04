@@ -52,7 +52,7 @@ Subnetting Requirements:
 * All the VPC components needed and even one EC2 instance per subnet at least should be created (Subnets, Route Tables, Internet Gateway, etc)
 * Create a README in your repo explaining the Terraform commands needed to create the infrastructure.
 * Attach a Diagram which explains the VPC and its components and indicating the IP assignations for the VPC and subnets.
-<img src="https://github.com/kawak1320/networking3/blob/main/images/diagram.png" width="611" height="491">
+<img src="https://github.com/kawak1320/networking3/blob/main/images/diagram.png" width="511" height="391">
 
 * Make sure that the public subnet can SSH to the private Subnets. 
 * Deliver the link to your repository.
