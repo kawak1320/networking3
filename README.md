@@ -16,7 +16,7 @@
   <ol>
     <li><a href="#subnetting-assigmnent">Subnetting Assignment</a></li>
     <li><a href="#infrastructure-as-code-assignment">Infrastructure as Code Assignment</a></li>
-    <li><a href="#assignment-instructions">Assignment Instructions</a></li>
+    <li><a href="#assignment-demo-instructions">Assignment Demo Instructions</a></li>
   </ol>
 </details>
 
@@ -57,7 +57,7 @@ Subnetting Requirements:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Assignment Instructions
+### Assignment Demo Instructions
 
 1. Clone the repo anywhere
    ```sh
