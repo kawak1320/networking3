@@ -65,8 +65,8 @@ Subnetting Requirements:
    ```
 2. Enter local directory `$ cd /networking3`.
 3. Open a terminal inside this directory and open VS Code `$ .code`.
-4. Once inside VSCode, reopen in Remote Container.
-5. With the container is up, `$ terraform init`
+4. Once inside VSCode, reopen the project in Remote Container.
+5. With the container up, `$ terraform init`
 6. You will have to create a `keys.tf` file containing the following values:
 ```terraform
 resource "aws_key_pair" "deployer" {
