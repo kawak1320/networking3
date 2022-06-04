@@ -38,6 +38,11 @@ Subnetting Requirements:
 | 192.168.0.0 | 192.168.0.4 | 192.168.1.254 | 192.168.255 | 192.168.0.0/23  |
 | 192.168.2.0 | 
 
+| Header 1  | Header 2            | Header 3  |
+| --------- | ------------------- | --------- |
+| Some data |                     | Cell 3    |
+| data      | Some long data here | more data | 
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Infrastructure as Code Assignment
