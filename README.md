@@ -15,7 +15,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#subnetting-assigmnent">Subnetting Assignment</a></li>
-    <li><a href="#iac-assignment">Infrastructure as Code Assignment</a></li>
+    <li><a href="#infrastructure-as-code-assignment">Infrastructure as Code Assignment</a></li>
 
   </ol>
 </details>
@@ -33,6 +33,10 @@ Subnetting Requirements:
 * Apply CIDR and VLSM concepts
 * Only get the subnets for the 4 offices, no more.
 * Deliver the Subnet Network Address, first and last assignable IPs and Broadcast for each subnet you got in a PDF file.
+
+| IP ADRESS | FIRST HOST | LAST HOST | BROADCAST |
+| 192.168.0.0 | 192.168.0.4 | 192.168.1.254 | 192.168.255 | 192.168.0.0/23  |
+| 192.168.2.0 | 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
