@@ -34,13 +34,14 @@ Subnetting Requirements:
 * Only get the subnets for the 4 offices, no more.
 * Deliver the Subnet Network Address, first and last assignable IPs and Broadcast for each subnet you got in a PDF file.
 
-### Subnet Network Adress [View in PDF](https://github.com/kawak1320/networking3/images/sna.pdf)
+### Subnet Network Adress 
 | IP ADRESS     | FIRST HOST    | LAST HOST     | BROADCAST       | SUBNET          |
 | ---------     | ------------  | ---------     |  ----------     | ----------      | 
 | 192.168.0.0   | 192.168.0.4   | 192.168.1.254 |  192.168.1.255  | 192.168.0.0/23  |
 | 192.168.2.0   | 192.168.2.4   | 192.168.2.126 |  192.168.2.127  | 192.168.2.0/25  |
 | 192.168.2.128 | 192.168.2.132 | 192.168.2.190 |  192.168.2.191  | 192.168.2.128/26|
 | 192.168.2.192 | 192.168.2.196 | 192.168.2.254 |  192.168.2.255  | 192.168.2.192/26|
+[View Table in PDF](https://github.com/kawak1320/networking3/images/sna.pdf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -69,8 +70,8 @@ Subnetting Requirements:
 6. You will have to create a `keys.tf` file containing the following values:
 ```terraform
 resource "aws_key_pair" "deployer" {
-  key_name   = "MartinPavesio-KP"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGYkl58FiVlpvuM5zY0qqCJAqOjkkYbqoWH6FlFkPmE76YkSzMtQBXfpR0T29huJ6Do3hd5KZftIxh7up8xy5ri15xfDGcmy8nR+BHZI0FgDv6+SCd1felYH0uiPOPxR5Wh7TIdXXV8H+38t4GywZctS9dkT9xKYr6Mxszt0yj/4+xhSM646r/1A/eJsGS3su7R8tqS/bq/L+Tb7HusDU+j1BhGr03SO0kXBDyyVXYgWuOXFPgqIaPlAqArJOLBJSufuO5cE2u5u0cnfzJuUh54Oq1ZeMAvFax4+0nYW45HgtPPx3n7wLJ/qYDRsl55SGhknBZnAfjKxDHzwtHA8ht"
+  key_name   = "your-kp-name"
+  public_key = "your .pub key value"
 }
 ```
 7. When terraform initializes, make a new plan `$ terraform plan -out mp_vpc.tfplan`
