@@ -34,10 +34,12 @@ Subnetting Requirements:
 * Only get the subnets for the 4 offices, no more.
 * Deliver the Subnet Network Address, first and last assignable IPs and Broadcast for each subnet you got in a PDF file.
 
-| IP ADRESS   | FIRST HOST          | LAST HOST     | BROADCAST    | SUBNET          |
-| ---------   | ------------------- | ---------     |  ----------  | ----------      | 
-| 192.168.0.0 | 192.168.0.4         | 192.168.1.254 |  192.168.255 | 192.168.0.0/23  |
-| 192.168.2.0 | Some long data here | more data     | 
+| IP ADRESS     | FIRST HOST    | LAST HOST     | BROADCAST       | SUBNET          |
+| ---------     | ------------  | ---------     |  ----------     | ----------      | 
+| 192.168.0.0   | 192.168.0.4   | 192.168.1.254 |  192.168.1.255  | 192.168.0.0/23  |
+| 192.168.2.0   | 192.168.2.4   | 192.168.2.126 |  192.168.2.127  | 192.168.2.0/25  |
+| 192.168.2.128 | 192.168.2.132 | 192.168.2.190 |  192.168.2.191  | 192.168.2.128/26|
+| 192.168.2.192 | 192.168.2.196 | 192.168.2.254 |  192.168.2.255  | 192.168.2.192/26|
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
