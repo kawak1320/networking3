@@ -41,7 +41,7 @@ Subnetting Requirements:
 | 192.168.2.0   | 192.168.2.4   | 192.168.2.126 |  192.168.2.127  | 192.168.2.0/25  |
 | 192.168.2.128 | 192.168.2.132 | 192.168.2.190 |  192.168.2.191  | 192.168.2.128/26|
 | 192.168.2.192 | 192.168.2.196 | 192.168.2.254 |  192.168.2.255  | 192.168.2.192/26|
-[View Table in PDF](https://github.com/kawak1320/networking3/images/sna.pdf)
+[View Table in PDF](https://github.com/kawak1320/networking3/images/networking3-diagrams.pdf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
