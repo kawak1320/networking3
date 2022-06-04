@@ -4,3 +4,6 @@
 *.tfstate*
 keys/
 keys.tf
+images/
+*.png
+*.pdf
