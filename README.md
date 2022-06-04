@@ -65,19 +65,18 @@ Subnetting Requirements:
    ```
 2. Enter local directory `$ cd /networking3`.
 3. Open a terminal inside this directory and open VS Code `$ .code`.
-4. Once inside VSCode, reopen Remote Container.
+4. Once inside VSCode, reopen in Remote Container.
 5. With the container is up, `$ terraform init`
 6. You will have to create a `keys.tf` file containing the following values:
 ```terraform
 resource "aws_key_pair" "deployer" {
   key_name   = "your-kp-name"
-  public_key = "your .pub key value"
+  public_key = "your .pub key content"
 }
 ```
 7. When terraform initializes, make a new plan `$ terraform plan -out mp_vpc.tfplan`
 8. After terraform plan succeeds, `$ terraform apply mp_vpc.tfplan`
-
-`$ `
+9. To test SSH connections from Remote Office EC2 to any Private Office EC2, you will need to `$ scp` your .pem file to the Remote Office Host in order to be able to connect via ssh to the other Instances. In case you can't upload the file via `$ scp`, you can always create the .pem file manually and add the values via your favourite console editor.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
